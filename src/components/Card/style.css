@@ -1,0 +1,40 @@
+.Card {
+    width: 350px;
+    height: 600px;
+    border-radius: 30px;
+    background-color: hsl(216, 50%, 16%);
+    overflow: hidden;
+    transition: 0.3s;
+    margin: 3rem 1rem 0 1rem;
+}
+
+.Card:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.CardImage {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1rem;
+}
+
+.CardImage img {
+    height: 300px;
+    width: 300px;
+    border-radius: 10px; 
+}
+
+.CardText {
+    margin: 1rem 0 0 2rem;
+}
+
+.CardText h2 {
+    color: #fff;
+}
+
+.CardText p {
+    font-size: 18px;
+    color: hsl(215, 32%, 27%);
+}
